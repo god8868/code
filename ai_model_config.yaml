@@ -1,0 +1,52 @@
+default_model: custom-gpt
+models:
+  claude-3-sonnet:
+    api_key_env: ANTHROPIC_API_KEY
+    extra_params: {}
+    max_tokens: 4000
+    model_name: claude-3-sonnet-20240229
+    model_type: claude
+    temperature: 0.7
+    timeout: 30
+  custom-gpt:
+    api_key: your-api-key-here
+    base_url: null
+    extra_params: {}
+    max_tokens: 1000
+    model_name: gpt-4o-mini
+    model_type: openai
+    temperature: 0.7
+    timeout: 30
+  gemini-pro:
+    api_key_env: GOOGLE_API_KEY
+    extra_params: {}
+    max_tokens: 4000
+    model_name: gemini-pro
+    model_type: gemini
+    temperature: 0.7
+    timeout: 30
+  gpt-3.5-turbo:
+    api_key_env: OPENAI_API_KEY
+    extra_params: {}
+    max_tokens: 4000
+    model_name: gpt-3.5-turbo
+    model_type: openai
+    temperature: 0.7
+    timeout: 30
+  gpt-4:
+    api_key_env: OPENAI_API_KEY
+    extra_params: {}
+    max_tokens: 4000
+    model_name: gpt-4
+    model_type: openai
+    temperature: 0.7
+    timeout: 30
+  test-model:
+    api_key: test-key
+    base_url: null
+    extra_params: {}
+    max_tokens: 4000
+    model_name: test-model
+    model_type: openai
+    temperature: 0.7
+    timeout: 30
